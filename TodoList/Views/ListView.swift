@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ListView.swift
 //  TodoList
 //
 //  Created by Joaquin Rapetti Pozzoli on 22/9/22.
@@ -17,15 +17,14 @@ import SwiftUI
 
 */
 
-struct ContentView: View {
+struct ListView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ListView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ListView()
     }
 }
